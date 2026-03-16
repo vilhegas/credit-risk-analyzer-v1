@@ -1,9 +1,9 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import type { CustomerFormData } from "@/src/components/forms/CustomerForm";
-import type { RiskFactorItem } from "@/src/components/dashboard/RiskFactors";
-import type { PaymentHistoryItem } from "@/src/components/dashboard/PaymentHistoryTable";
+import type { CustomerFormData } from "@/components/forms/CustomerForm";
+import type { RiskFactorItem } from "@/components/dashboard/RiskFactors";
+import type { PaymentHistoryItem } from "@/components/dashboard/PaymentHistoryTable";
 
 export type RiskLevel = "LOW" | "MODERATE" | "HIGH";
 

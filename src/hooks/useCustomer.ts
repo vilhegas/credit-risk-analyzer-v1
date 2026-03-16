@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { CustomerFormData } from "@/src/components/forms/CustomerForm";
+import type { CustomerFormData } from "@/components/forms/CustomerForm";
 
 export type Customer = CustomerFormData & {
   id: string;
